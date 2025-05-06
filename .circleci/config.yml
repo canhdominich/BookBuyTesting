@@ -11,12 +11,12 @@ jobs:
           command: >
             katalonc.sh -noSplash
             -runMode=console
-            -projectPath=${WORKSPACE}
+            -projectPath=${CIRCLE_WORKING_DIRECTORY}
             -retry=0
             -testSuitePath='Test Suites/TSLogin'
             -browserType='Chrome (headless)'
             -executionProfile='default'
-            -reportFolder=${WORKSPACE}/Reports
+            -reportFolder=${CIRCLE_WORKING_DIRECTORY}/Reports
             -reportFileName='TestReport'
             -apiKey=${KATALON_KEY}
 
