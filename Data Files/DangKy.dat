@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>b7d1e18a-f475-495d-9b9b-437fe4e2d8bb</dataFileGUID>
-   <dataSourceUrl>/BookBuyTesting/Data Files/TestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>/root/project/BookBuyTesting/Data Files/TestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
