@@ -20,7 +20,7 @@ jobs:
             -reportFileName='TestReport'
             -apiKey=${KATALON_KEY}
       - store_artifacts:
-          path: ${CIRCLE_WORKING_DIRECTORY}/Reports
+          path: /root/project/Reports
           destination: katalon-reports
 workflows:
   version: 2
