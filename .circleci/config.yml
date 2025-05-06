@@ -18,7 +18,7 @@ jobs:
             -executionProfile='default'
             -reportFolder=${WORKSPACE}/Reports
             -reportFileName='TestReport'
-            -apikey=${env.KATALON_KEY}
+            -apiKey=${KATALON_KEY}
 
 workflows:
   version: 2
