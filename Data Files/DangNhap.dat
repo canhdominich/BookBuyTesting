@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>1a5dc05e-e345-40c1-b822-c1bc6743ec36</dataFileGUID>
-   <dataSourceUrl>/home/anhhn/Downloads/source/Katalon/BookBuyTesting/Data Files/TestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>/BookBuyTesting/Data Files/TestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
