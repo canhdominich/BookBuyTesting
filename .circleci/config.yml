@@ -1,0 +1,30 @@
+version: 2.1
+
+orbs:
+  katalon: katalon/katalon@1.0.4
+
+jobs:
+  build:
+    docker:
+      - image: katalonstudio/katalon
+    steps:
+      - checkout
+      - run:
+          name: Run Katalon Tests
+          command: >
+            katalonc.sh -noSplash
+            -runMode=console
+            -projectPath=${WORKSPACE}
+            -retry=0
+            -testSuitePath='Test Suites/TSLogin'
+            -browserType='Chrome (headless)'
+            -executionProfile='default'
+            -reportFolder=${WORKSPACE}/Reports
+            -reportFileName='TestReport'
+            -apikey=${env.KATALON_KEY}
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - build
