@@ -13,7 +13,7 @@ jobs:
             -runMode=console
             -projectPath=${CIRCLE_WORKING_DIRECTORY}
             -retry=0
-            -testSuitePath='Test Suites/DangKy'
+            -testSuitePath='Test Suites/TimKiem'
             -browserType='Chrome (headless)'
             -executionProfile='default'
             -reportFolder=${CIRCLE_WORKING_DIRECTORY}/Reports
